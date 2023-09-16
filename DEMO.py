@@ -1,5 +1,7 @@
 # pylint: disable=import-error
 
+# I HAVE CHANGED THIS
+
 from gamer_module import MyGamer
 from number_game import NumberGame
 
@@ -10,7 +12,7 @@ if __name__ == '__main__':
     game = NumberGame(gamer)
     game.game_loop(begin=True)
 
-# Check for pot errors
+# Check for pot error
 
 # DO THE TESTING ALREADY
 # Do in GiT + additional files ??
